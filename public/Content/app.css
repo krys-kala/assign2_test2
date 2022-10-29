@@ -19,6 +19,32 @@ body {
   flex-direction: column;
 }
 
+main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* .main {
+  display: flex;
+  max-width: 300px;
+} */
+
+.contain {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  overflow: hidden;
+}
+
 h1 {
   color: white;
   padding-top: 10vh;
@@ -26,7 +52,7 @@ h1 {
 
 p {
   color: white;
-  padding: 2vh 3vh;
+  padding: 2vh;
 }
 
 a {
