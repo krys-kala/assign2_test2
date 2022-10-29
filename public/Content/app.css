@@ -56,7 +56,7 @@ p {
 }
 
 a {
-  color: #00B7FF;
+  color: #ffffff;
 }
 /*
 Need separate
@@ -143,4 +143,32 @@ Need Separate
   border-radius: 50%;
 }
 
+.btn{
+  background-color: #eb6123;
+  color: #ffffff;
+}
 
+.btn :hover{
+  background-color: #e9804d;
+  color: #ffffff;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #18181a;
+  color: #ffffff;
+}
+
+.btn-primary, .btn-primary:visited {
+  background-color: #eb6123 !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+}
+.btn-primary:hover, .btn-primary:active{
+  background-color: #18181a !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+}
