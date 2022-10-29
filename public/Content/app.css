@@ -73,9 +73,6 @@ Need separate
   bottom: 0;
   width: 50%;    
 }
-.goto{
-  font-size: 50px;
-}
 
 .container {
   text-align: center;
@@ -93,6 +90,7 @@ img {
   overflow-wrap: break-word;
   float:left;
   font-size: 17px;
+  font-style: italic;
   
 }
 .picture{
@@ -100,14 +98,15 @@ img {
 }
 .container-1{
   padding-top: 25px;;
-  padding-right: 250px;
+  padding-right: 280px;
   padding-bottom: 50px;
-  padding-left: 250px;
+  padding-left: 280px;
 }
 .top-of-page{
   text-align: center;
   font-size: 50px;
   font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 hr.line {
   border-top: 3px solid #bbb;
