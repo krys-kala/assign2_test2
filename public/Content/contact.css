@@ -1,0 +1,85 @@
+@charset "UTF-8";
+main {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+/* designs the background of the form */
+form {
+    background-color: rgba(226, 226, 226, 0.3);
+    padding: 7%;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+p {
+    padding: 7px;
+}
+
+h1 {
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+/* designs the background for all the input sections */
+input[type="text"] {
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+input[type="email"] {
+    background: rgb(0, 0, 0, 0.3);
+    border: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+input[type="tel"] {
+    background: rgb(0, 0, 0, 0.3);
+    border: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+textarea {
+    background: rgb(0, 0, 0, 0.3);
+    border: none;
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    color:white
+}
+
+/* designs the submit button */
+input[type="submit"] {
+    background: rgb(0, 0, 0, 0.6);
+    border: 3px;
+    border-color: white;
+    width: 30%;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* defines a general spacing of all inputs */
+input {
+    padding-left: 10px;
+    color: white;
+}
+
+/* defining the design of te placeholder*/
+::placeholder {
+    color: white;
+    padding-left: 10px;
+}

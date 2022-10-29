@@ -1,4 +1,68 @@
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/navbar.ejs') %>
+<link rel='stylesheet' href='/Content/contact.css' />
+</head>
+<body>
+<main>
+
+ <div id="wrapper">
+    <!--pushes info to your email-->
+        <form
+            action="mailto:email@email.com"
+            method="post"
+            enctype="text/plain"
+            name="form">
+        
+            <h1>Feel free to leave a message...</h1>
+
+            <p>
+                <!-- obtains the name from the users -->
+                <input
+                    type="text"
+                    placeholder="NAME"
+                    name="name"
+                    size="60"
+                    required
+                >
+            </p>
+
+            <p>
+                <!-- obtains the email from the users -->
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="EMAIL"
+                    size="60"
+                    required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$"
+                >
+            </p>
+
+            <p>
+                <!-- obtains the phone number from the users -->
+                <input
+                    type="tel"
+                    name="phone"
+                    placeholder="PHONE NUMBER"
+                    size="60"
+                    required
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                >
+            </p>
+
+            <p>
+                <!-- allows users to type their messages and thoughts -->
+                <textarea
+                    name="comments"
+                    placeholder="YOUR COMMENTS, MESSAGES OR THOUGHTS..."
+                    cols="60"
+                    rows="6"
+                ></textarea>
+            </p>
+
+            <p><input type="submit" value="Submit Form" ></p>
+        </form>
+    </div>
+  </main>
 
 <%- include ('partials/footer.ejs') %>
