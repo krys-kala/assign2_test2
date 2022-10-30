@@ -176,6 +176,7 @@ Need Separate
 }
 
 article{
+  padding: 0;
   text-align: center;
   width: 100vh;
 }
