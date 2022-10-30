@@ -84,14 +84,13 @@ img {
   height: auto;
   border-radius: 50%;
 }
+
 .words {
   font-family: Helvetica, Arial, sans-serif;
   inline-size: 950px; 
   overflow-wrap: break-word;
   float:left;
-  font-size: 17px;
-  font-style: italic;
-  
+  font-size: 20px;
 }
 .picture{
   float:right;
