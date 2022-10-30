@@ -143,6 +143,10 @@ Need Separate
   background-color: #e9804d;
   color: #ffffff;
 }
+.btn :hover #body{
+  background-color: #e9804d;
+  color: #ffffff;
+}
 
 .footer{
   position: fixed;
@@ -179,6 +183,7 @@ article{
   padding: 0;
   text-align: center;
   width: 100vh;
+  margin-right: 65px;
 }
 
 article p{
