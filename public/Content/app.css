@@ -91,6 +91,7 @@ img {
   overflow-wrap: break-word;
   float:left;
   font-size: 20px;
+  text-align: justify;
 }
 .picture{
   float:right;
