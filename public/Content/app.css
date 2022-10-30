@@ -85,14 +85,6 @@ img {
   border-radius: 50%;
 }
 
-.words {
-  font-family: Helvetica, Arial, sans-serif;
-  inline-size: 950px; 
-  overflow-wrap: break-word;
-  float:left;
-  font-size: 20px;
-  text-align: justify;
-}
 .picture{
   float:right;
 }
@@ -163,11 +155,36 @@ Need Separate
 
 .btn-primary, .btn-primary:visited {
   background-color: #eb6123 !important;
+  font-weight: bold !important;
+  font-size: 30px !important;
+  padding: 1vh 3vh !important;
   color: #ffffff !important;
   border-color: transparent !important;
 }
 .btn-primary:hover, .btn-primary:active{
+  font-weight: bold !important;
+  font-size: 30px !important;
   background-color: #18181a !important;
   color: #ffffff !important;
   border-color: transparent !important;
+}
+
+.btn-info:hover, .btn-info:active{
+  background-color: #eb6123 !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+}
+
+article{
+  text-align: center;
+  width: 100vh;
+}
+
+article p{
+  font-family: Helvetica, Arial, sans-serif;
+  inline-size: 950px; 
+  overflow-wrap: break-word;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
 }
